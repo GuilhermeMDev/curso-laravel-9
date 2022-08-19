@@ -3,8 +3,8 @@
 @section('title', 'Listagem dos Usuários')
 
 @section('content')
-    <h1>Listagem dos usuarios
-        <a href="{{route('users.create')}}">(+)</a>
+    <h1 class="text-2x1 font-semibold leading-tigh py-2">Listagem dos usuarios
+        <a href="{{route('users.create')}}" class="bg-blue-900 ">(+)</a>
     </h1>
 
     <form action="{{route('users.index')}}" method="get">
